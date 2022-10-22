@@ -116,24 +116,22 @@ print("The bank now has \(Bank.coinsInBank) coins")
 ```
 The player has now left the game. This is indicated by setting the optional playerOne variable to nil, meaning “no Player instance.” At the point that this happens, the playerOne variable’s reference to the Player instance is broken. No other properties or variables are still referring to the Player instance, and so it’s deallocated in order to free up its memory. Just before this happens, its deinitializer is called automatically, and its coins are returned to the bank.
 
-## The End
-Taken from **official Swift** documentation found [here ](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html).
+## Our Services
+We made the official Swift documentation searchable. [Try it](https://github.com/MatthewpHarding?tab=repositories&q=SWIFTDOCS+hello+world). Our aim is to optimise career growth for juniors learning iOS by teaching Swift via our online courses. We have taken the official Swift documentation and **simplified it** for fast learning. 😎
 
-- 🔍 We made the **official Swift documentation** [searchable](https://github.com/MatthewpHarding?tab=repositories). 
+💡 **Top Tip**: During an iOS interview they'll ask questions about Swift, not iOS! To BOOST 🚀 your career forwards become an expert of the Swift language.
 
-- 🕊 All official documentation begins with `SWIFTDOCS`. [Try it](https://github.com/MatthewpHarding?tab=repositories&q=SWIFTDOCS).
+- 🔍 **Searchable Swift documentation**: [Try it](https://github.com/MatthewpHarding?tab=repositories&q=SWIFTDOCS+hello+world).
 
-- 🕊 All simplified documentation begins with `SIMPLDOCS`. [Try it](https://github.com/MatthewpHarding?tab=repositories&q=SIMPLDOCS).
+- 🕊 **Xcode playgrounds**: Run and execute the official Swift documentation in Xcode! . [Try it](https://github.com/MatthewpHarding/SWIFTDOCS-1-the-basics/archive/refs/heads/main.zip).
 
-- Try our free mini-course:
-👉 [A Guided Tour of Swift](https://github.com/MatthewpHarding/a-tour-of-swift) 
+- 👉 **Online Courses**: [**Swift Simplified** *(for fast learning)* A Guided Tour of Swift](https://www.udemy.com/user/iosbfree) can be found on [Udemy.com](https://www.udemy.com/user/iosbfree). [Try it](https://www.udemy.com/user/iosbfree).
 
-# 🤷🏼‍♂️
+- *Preview* our Online Course Xcode playground [**Swift Simplified**: A Guided Tour of Swift](https://github.com/MatthewpHarding/a-tour-of-swift) 
 
-
-
+# 🧑🏼‍💻
+Created by Matthew Harding
 @[MatthewpHarding](https://github.com/MatthewpHarding) 🔗
-
 
 🤩 *..let's live a better life, by learning Swift* 🛠
 
