@@ -76,3 +76,4 @@ print("PlayerOne has left the game")
 print("The bank now has \(Bank.coinsInBank) coins")
 // Prints "The bank now has 10000 coins"
 //: The player has now left the game. This is indicated by setting the optional playerOne variable to nil, meaning “no Player instance.” At the point that this happens, the playerOne variable’s reference to the Player instance is broken. No other properties or variables are still referring to the Player instance, and so it’s deallocated in order to free up its memory. Just before this happens, its deinitializer is called automatically, and its coins are returned to the bank.
+
